@@ -25,11 +25,19 @@
 <body>
     <div>
         <nav class="navbar navbar-light navbar-expand-md fixed-top navigation-clean-button">
-            <div class="container"><a class="navbar-brand" href="#" style="font-family:Orbitron, sans-serif;"><img src="assets/img/logoNoNombre.png" data-bs-hover-animate="swing" style="width:65px;">Programium</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="container">
+                <a class="navbar-brand" href="#" style="font-family:Orbitron, sans-serif;">
+                    <img src="assets/img/logoNoNombre.png" data-bs-hover-animate="swing" style="width:65px;">Programium
+                </a>
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
                 <div
                     class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav mr-auto">
-                        <li class="dropdown"><a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">Cursos</a>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">Cursos</a>
                             <div class="dropdown-menu" role="menu">
                                 <a class="dropdown-item" role="presentation" href="basico.html">Basico
                                 </a>
@@ -42,16 +50,77 @@
                         </li>
                     </ul><span class="navbar-text actions"> 
                         <a href="#loginPop" class="login" data-toggle="modal" >Inicia Sesion</a>
-                        <a class="btn btn-light action-button" role="button" href="signUp.html" data-bs-hover-animate="pulse" style="background-color:rgb(1,115,157);">Registrate</a></span>
+                        <a class="btn btn-light action-button" role="button" href="#signupPop" data-bs-hover-animate="pulse" data-toggle="modal" style="background-color:rgb(1,115,157);">Registrate</a></span>
                 </div>
             </div>
         </nav>
     </div>
+    <div class="modal fade" id="signupPop">
+        <div class="modal-body">
+            <div class="login-clean">
+                <form method="post" data-aos="fade-up" style="background-color:rgb(248,248,248);">
+                    <h2 class="sr-only">Signup Form</h2>
+                    <div class="illustration">
+                        <img src="assets/img/logoNoNombre.png" style="width:140px;">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="email" name="email" placeholder="Correo electronico">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="username" name="username" placeholder="Nombre de usuario">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="name" name="firstName" placeholder="Nombres">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="name" name="lastName" placeholder="Apellidos">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Fecha de nacimiento</label>
+                        <input class="form-control" type="date" name="birthDate" placeholder="Fecha de nacimiento">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="name" name="city" placeholder="Ciudad">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Profesion</label>
+                        <select name="ocupation" id="selectOcupation" class="form-control">
+                            <option  value="student">Estudiante</option>
+                            <option selected="selected" value="employee">Empleado</option>
+                            <option value="independet">Independiente</option>
+                            <option value="other">Otro</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="" class="" >Es profesor?</label>
+                        <select name="isProfessor" id="selectProfessor" class="form-control">
+                            <option value="true">Si</option>
+                            <option selected="selected" value="false">No</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="password" name="password" placeholder="Contraseña" aria-describedby="passwordHelp">
+                        <small id="passwordHelp" class="form-text text-muted">
+                            Su contraseña debe tener minimo 5 caracteres y solo puede contener caracteres especiales tales como "/*-+!@#$%& "
+                        </small>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Por que te interesa el sitio?</label>
+                        <textarea name="" id="" cols="30" rows="10" class="form-control" placeholder="Sea breve"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-primary active btn-block" type="submit" >Crear usuario</button>
+                    </div>
+                    <a href="#loginPop" data-toggle="modal" class="forgot">Ya tengo mi cuenta</a>
+                </form>
+            </div>
+        </div>
+    </div>
     <div class="modal fade" id="loginPop">
-        <div class="modal-dialog">
-            <div class="modal-content">
+        <!-- <div class="modal-dialog"> -->
+            <!-- <div class="modal-content"> -->
                 <div class="modal-body">
-                    <div class="login-clean" style="background-color:rgb(255,255,255);">
+                    <div class="login-clean" >
                         <form method="post" data-aos="fade-up" style="background-color:rgb(248,248,248);">
                             <h2 class="sr-only">Login Form</h2>
                             <div class="illustration"><img src="assets/img/logoNoNombre.png" style="width:140px;"></div>
@@ -61,14 +130,16 @@
                     </div>
                     
                 </div>    
-            </div>
-        </div>
+            <!-- </div> -->
+        <!-- </div> -->
     </div>
     <div class="float-none" id="promo" style="margin-top:103px;">
         <div class="jumbotron" style="font-weight:normal;margin-top:50px;margin-bottom:50px;">
             <h1>Bienvenido a Programium</h1>
             <p>Aqui podras encontrar una variedad de animaciones y videotutoriales para facilitarte el aprendizaje de la programacion en computadores!</p>
-            <p><a class="btn btn-primary" role="button" href="#" style="background-color:rgb(1,115,157);">Conoce mas!</a></p>
+            <p>
+                <a class="btn btn-primary" role="button" href="#" style="background-color:rgb(1,115,157);">Conoce mas!</a>
+            </p>
         </div>
     </div>
     <div class="container">
@@ -82,8 +153,10 @@
                         <div class="card-body">
                             <h4 class="card-title">Basico</h4>
                             <h6 class="text-muted card-subtitle mb-2">HTML -- CSS</h6>
-                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p><a class="card-link" href="#">Link</a><a class="card-link"
-                                href="#">Link</a></div>
+                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                            <a class="card-link" href="#">Link</a>
+                            <a class="card-link" href="#">Link</a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -91,8 +164,10 @@
                         <div class="card-body">
                             <h4 class="card-title">Intermedio</h4>
                             <h6 class="text-muted card-subtitle mb-2">JavaScript -- Bootstrap</h6>
-                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p><a class="card-link" href="#">Link</a><a class="card-link"
-                                href="#">Link</a></div>
+                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                            <a class="card-link" href="#">Link</a>
+                            <a class="card-link" href="#">Link</a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -100,8 +175,10 @@
                         <div class="card-body">
                             <h4 class="card-title">Avanzado</h4>
                             <h6 class="text-muted card-subtitle mb-2">PHP -- MYSQL</h6>
-                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p><a class="card-link" href="#">Link</a><a class="card-link"
-                                href="#">Link</a></div>
+                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                            <a class="card-link" href="#">Link</a>
+                            <a class="card-link" href="#">Link</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -115,19 +192,41 @@
             </div>
             <div class="row people">
                 <div class="col-md-6 col-lg-6 col-xl-6 offset-xl-0 item">
-                    <div class="box"><img class="rounded-circle" src="assets/img/IMG_0640.jpg" id="profilePic">
+                    <div class="box">
+                        <img class="rounded-circle" src="assets/img/IMG_0640.jpg" id="profilePic">
                         <h3 class="name">Juan Carlos Gomez</h3>
                         <p class="title">Desarrollador</p>
                         <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
-                        <div class="social"><a href="https://facebook.com/JuanCarlosGuitar"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                        <div class="social">
+                            <a href="https://facebook.com/JuanCarlosGuitar">
+                                <i class="fa fa-facebook-official"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 col-xl-6 offset-xl-0 item">
-                    <div class="box"><img class="rounded-circle" src="assets/img/2.jpg">
+                    <div class="box">
+                        <img class="rounded-circle" src="assets/img/2.jpg">
                         <h3 class="name">Emily Clark</h3>
                         <p class="title">Artist</p>
                         <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
-                        <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                        <div class="social">
+                            <a href="#">
+                                <i class="fa fa-facebook-official"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -135,11 +234,30 @@
     </div>
     <div class="footer-basic">
         <footer>
-            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <div class="social">
+                <a href="#">
+                    <i class="icon ion-social-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="icon ion-social-snapchat"></i>
+                </a>
+                <a href="#">
+                    <i class="icon ion-social-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="icon ion-social-facebook"></i>
+                </a>
+            </div>
             <ul class="list-inline">
-                <li class="list-inline-item"><a href="#">Inicio</a></li>
-                <li class="list-inline-item"><a href="#">Acerca de</a></li>
-                <li class="list-inline-item"><a href="#">Politica de privacidad</a></li>
+                <li class="list-inline-item">
+                    <a href="#">Inicio</a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#">Acerca de</a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#">Politica de privacidad</a>
+                </li>
             </ul>
             <p class="copyright">Programium © 2019</p>
         </footer>
