@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROGRAMIUM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron">
+    <link rel="stylesheet" href="assets/css/Article-List.css">
+    <link rel="stylesheet" href="assets/css/Features-Boxed.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Team-Boxed.css">
+</head>
+
+<body>
+    <div class="login-clean" style="background-color:rgb(255,255,255);">
+        <form method="post" data-aos="fade-up" style="background-color:rgb(248,248,248);">
+            <h2 class="sr-only">Signup Form</h2>
+            <div class="illustration">
+                <img src="assets/img/logoNoNombre.png" style="width:140px;">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="email" name="email" placeholder="Correo electronico">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="username" name="username" placeholder="Nombre de usuario">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="name" name="firstName" placeholder="Nombres">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="name" name="lastName" placeholder="Apellidos">
+            </div>
+            <div class="form-group">
+                <label for="">Fecha de nacimiento</label>
+                <input class="form-control" type="date" name="birthDate" placeholder="Fecha de nacimiento">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="name" name="city" placeholder="Ciudad">
+            </div>
+            <div class="form-group">
+                <label for="">Profesion</label>
+                <select name="ocupation" id="selectOcupation" class="form-control">
+                    <option  value="student">Estudiante</option>
+                    <option selected="selected" value="employee">Empleado</option>
+                    <option value="independet">Independiente</option>
+                    <option value="other">Otro</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="" class="" >Es profesor?</label>
+                <select name="isProfessor" id="selectProfessor" class="form-control">
+                    <option value="true">Si</option>
+                    <option selected="selected" value="false">No</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="password" name="password" placeholder="Contraseña" aria-describedby="passwordHelp">
+                <small id="passwordHelp" class="form-text text-muted">
+                    Su contraseña debe tener minimo 5 caracteres y solo puede contener caracteres especiales tales como "/*-+!@#$%& "
+                </small>
+            </div>
+            <div class="form-group">
+                <label for="">Por que te interesa el sitio?</label>
+                <textarea name="" id="" cols="30" rows="10" class="form-control" placeholder="Sea breve"></textarea>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-primary active btn-block" type="submit" >Crear usuario</button>
+            </div>
+            <a href="#" class="forgot">Olvide mi contraseña</a>
+        </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/bs-animation.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+</body>
+
+</html>
