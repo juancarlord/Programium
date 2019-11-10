@@ -58,7 +58,7 @@
     <div class="modal fade" id="signupPop">
         <div class="modal-body">
             <div class="login-clean">
-                <form method="post" data-aos="fade-up" style="background-color:rgb(248,248,248);">
+                <form method="post" action="" data-aos="fade-up" style="background-color:rgb(248,248,248);">
                     <h2 class="sr-only">Signup Form</h2>
                     <div class="illustration">
                         <img src="assets/img/logoNoNombre.png" style="width:140px;">
@@ -70,43 +70,10 @@
                         <input class="form-control" type="username" name="username" placeholder="Nombre de usuario">
                     </div>
                     <div class="form-group">
-                        <input class="form-control" type="name" name="firstName" placeholder="Nombres">
-                    </div>
-                    <div class="form-group">
-                        <input class="form-control" type="name" name="lastName" placeholder="Apellidos">
-                    </div>
-                    <div class="form-group">
-                        <label for="">Fecha de nacimiento</label>
-                        <input class="form-control" type="date" name="birthDate" placeholder="Fecha de nacimiento">
-                    </div>
-                    <div class="form-group">
-                        <input class="form-control" type="name" name="city" placeholder="Ciudad">
-                    </div>
-                    <div class="form-group">
-                        <label for="">Profesion</label>
-                        <select name="ocupation" id="selectOcupation" class="form-control">
-                            <option  value="student">Estudiante</option>
-                            <option selected="selected" value="employee">Empleado</option>
-                            <option value="independet">Independiente</option>
-                            <option value="other">Otro</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="" class="" >Es profesor?</label>
-                        <select name="isProfessor" id="selectProfessor" class="form-control">
-                            <option value="true">Si</option>
-                            <option selected="selected" value="false">No</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
                         <input class="form-control" type="password" name="password" placeholder="Contraseña" aria-describedby="passwordHelp">
                         <small id="passwordHelp" class="form-text text-muted">
                             Su contraseña debe tener minimo 5 caracteres y solo puede contener caracteres especiales tales como "/*-+!@#$%& "
                         </small>
-                    </div>
-                    <div class="form-group">
-                        <label for="">Por que te interesa el sitio?</label>
-                        <textarea name="" id="" cols="30" rows="10" class="form-control" placeholder="Sea breve"></textarea>
                     </div>
                     <div class="form-group">
                         <button class="btn btn-primary active btn-block" type="submit" >Crear usuario</button>
