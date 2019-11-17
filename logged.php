@@ -51,10 +51,19 @@
                     </ul>
                     <span class="navbar-text actions"> 
                         <p>
-                        	<?php 
-	                        	session_start();
-	                        	echo "Hola ".$_SESSION['name']."!";
-                        	 ?>
+                        	<ul class="nav navbar-nav mr-auto">
+	                        	<li class="dropdown">
+	                        		<a href="" class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+	                        			<?php 
+	                        				session_start();
+	                        				echo "Hola ".$_SESSION['name']."!"; 
+	                        			?>
+	                        		</a>
+	                        		<div class="dropdown-menu" role="menu">
+	                        			<a href="php/logout.php" class="dropdown-item">Cerrar sesion</a>
+	                        		</div>
+	                        	</li>
+                        	</ul>
                         </p>
                     </span>
                 </div>

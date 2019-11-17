@@ -114,7 +114,7 @@
                 </div>
             </div>
             <div class="form-row">
-                <input type="submit" name="send" value="Actualizar datos" class="btn-primary">
+                <input type="submit" name="send" value="Actualizar datos" class="btn btn-primary">
             </div>
         </form>
     </div>

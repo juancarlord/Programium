@@ -1,17 +1,11 @@
 <?php 
-	$host = "localhost";
-	$db = "db_usuario";
-	$user = "root";
-	$pass = "";
+	
 
 	session_start();
-
+	include('db.php');
+	?>
+	<?php 
 	try{
-		/*Estable conexion a la BD*/
-		$connect = new PDO("mysql:host=$host;dbname=$db;charset=utf8",$user, $pass);
-		$connect->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-		echo "Conexion exitosa <br>";
-		
 		/*Insertar registro en la tabla*/
 		$email = $_POST['email'];
 		$username = $_POST['username'];
