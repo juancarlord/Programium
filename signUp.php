@@ -49,7 +49,7 @@
                             <a class="nav-link" href="#">Foros</a>
                         </li>
                     </ul><span class="navbar-text actions"> 
-                        <a href="#loginPop" class="login" data-toggle="modal" >Inicia Sesion</a>
+                        <!-- <a href="#loginPop" class="login" data-toggle="modal" >Inicia Sesion</a> -->
                         <p>
                             Bienvenido! 
                             <?php 

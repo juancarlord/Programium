@@ -2,7 +2,7 @@
 	$host = "localhost";
 	$db = "db_usuario";
 	$user = "root";
-	$pass = "admin";
+	$pass = "";
 
 	session_start();
 
@@ -30,6 +30,8 @@
 
 		echo "Cuenta creada satisfactoriamente!";
 		$_SESSION['displayUser']=$username;
+		$_SESSION['userEmail']=$email;
+		
 		header("Location:../signUp.php");
 
 		

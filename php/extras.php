@@ -1,8 +1,12 @@
+
 <?php 
 	$host = "localhost";
 	$db = "db_usuario";
 	$user = "root";
-	$pass = "admin";
+	$pass = "";
+
+
+	session_start();
 
 	try{
 		/*Estable conexion a la BD*/
@@ -18,8 +22,9 @@
 		$city = $_POST['city'];
 		$job = $_POST['job'];
 		$interest = $_POST['interest'];
+		$email = $_SESSION['userEmail'];
 
-		$sql = "UPDATE persona SET NOMBRE=:firstName, APELLIDO=:lastName, PROFESOR=:professor, FECHA_NAC=:birthDate, INTERES=:interest, CODIGO_CIUDAD=:city, CODIGO_OCUP=:job WHERE EMAIL = 'admin@leo.com' ";
+		$sql = "UPDATE persona SET NOMBRE=:firstName, APELLIDO=:lastName, PROFESOR=:professor, FECHA_NAC=:birthDate, INTERES=:interest, CODIGO_CIUDAD=:city, CODIGO_OCUP=:job WHERE EMAIL = :email ";
 
 		$send = $connect->prepare($sql);
 
@@ -30,12 +35,13 @@
 		$send->bindParam(":city", $city);
 		$send->bindParam(":job", $job);
 		$send->bindParam(":interest", $interest);
+		$send->bindParam(":email", $email);
 
 		$send->execute();
 
 		echo "Datos actualizados correctamente";
-		
-		header("Location:../index.php");		
+		$_SESSION['name']=$firstName;
+		header("Location:../logged.php");		
 
 
 	}catch(PDOException $e){
