@@ -2,7 +2,9 @@
 	$host = "localhost";
 	$db = "db_usuario";
 	$user = "root";
-	$pass = "";
+	$pass = "admin";
+
+	session_start();
 
 	try{
 		/*Estable conexion a la BD*/
@@ -22,11 +24,15 @@
 		$send->bindParam(':username', $username);
 		$send->bindParam(':password', $password);
 
+
+
 		$send->execute();
 
 		echo "Cuenta creada satisfactoriamente!";
+		$_SESSION['displayUser']=$username;
+		header("Location:../signUp.php");
 
-
+		
 		
 
 
@@ -37,3 +43,7 @@
 		$connect = null;
 		die();
 	}
+
+	?>
+	
+	
