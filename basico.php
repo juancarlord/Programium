@@ -23,23 +23,24 @@
 </head>
 
 <body>
-    <div class="login-clean" style="background-color:rgb(255,255,255);">
-        <form method="post" data-aos="fade-up" style="background-color:rgb(248,248,248);">
-            <h2 class="sr-only">Login Form</h2>
-            <div class="illustration">
-                <img src="assets/img/logoNoNombre.png" style="width:140px;">
+    <?php require_once 'includes/navBar.php'; ?>
+    
+    <div class="article-list">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">Curso Basico</h2>
+                <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. </p>
             </div>
-            <div class="form-group">
-                <input class="form-control" type="email" name="email" placeholder="Correo electronico">
-            </div>
-            <div class="form-group">
-                <input class="form-control" type="password" name="password" placeholder="Clave">
-            </div>
-            <div class="form-group">
-                <button class="btn btn-primary active btn-block" type="submit">Iniciar sesion</button>
-            </div>
-            <a href="#" class="forgot">Olvide mi contraseña</a>
-        </form>
+            <div class="row articles">
+                <div class="col-sm-6 col-md-6 col-lg-6 item"><a href="#"><img class="img-fluid" src="assets/img/modulo1.jpg"></a>
+                    <h3 class="name">Modulo 1</h3>
+                    <p class="description">En este modulo encontraras aspectos relacionados con la introduccion a la programacion estructurada, estructuras secuenciales entre otras</p><a href="modulo1.html" class="action"><i class="fa fa-arrow-circle-right"></i></a></div>
+                <div
+                    class="col-sm-6 col-md-6 col-lg-6 item"><a href="#"><img class="img-fluid" src="assets/img/modulo2.jpg"></a>
+                    <h3 class="name">Modulo 2</h3>
+                    <p class="description">En este modulo empezaremos con la programacion orientada a objetos usando el lenguaje de programacion JAVA</p><a href="#" class="action"><i class="fa fa-arrow-circle-right"></i></a></div>
+        </div>
+    </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>

@@ -7,9 +7,9 @@
 </head>
 <body>
     
-    <?php require_once 'includes/navNoLog.php'; ?>
-    <?php require_once 'includes/signUpModal.php'; ?>
+    <?php require_once 'includes/navBar.php'; ?>
     <?php require_once 'includes/loginModal.php'; ?>
+    <?php require_once 'includes/signUpModal.php'; ?>
     
     <div class="float-none" id="promo" style="margin-top:103px;">
         <div class="jumbotron" style="font-weight:normal;margin-top:50px;margin-bottom:50px;">
@@ -29,7 +29,7 @@
                 <div class="col-md-4">
                     <div class="card">
                         <div class="card-body">
-                            <h4 class="card-title">Basico</h4>
+                            <h4 class="card-title">Principiante</h4>
                             <h6 class="text-muted card-subtitle mb-2">HTML -- CSS</h6>
                             <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
                             <a class="card-link" href="#">Link</a>
@@ -91,7 +91,7 @@
                 <div class="col-md-6 col-lg-6 col-xl-6 offset-xl-0 item">
                     <div class="box">
                         <img class="rounded-circle" src="assets/img/2.jpg">
-                        <h3 class="name">Emily Clark</h3>
+                        <h3 class="name">Angie Vargas</h3>
                         <p class="title">Artist</p>
                         <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
                         <div class="social">
@@ -140,6 +140,7 @@
             <p class="copyright">Programium © 2019</p>
         </footer>
     </div>
+    
     <?php require_once 'includes/bootstrapBody.php'; ?>
 </body>
 

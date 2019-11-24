@@ -21,10 +21,11 @@
 	      if($count == 1 && !empty($row)) {
 	        /******************** Your code ***********************/
 	        $_SESSION['sess_user_id']   = $row['USUARIO'];
-	        $_SESSION['sess_user_name'] = $row['EMAIL'];
+	        $_SESSION['userEmail'] = $row['EMAIL'];
 	        $_SESSION['name'] = $row['NOMBRE'];
 	       
-			header("Location:../logged.php");		
+			/*header("Location:../logged.php");		*/
+			header("Location:../index.php");
 
 	      } else {
 	        $msg = "Email o contraseña invalida!";
@@ -38,6 +39,9 @@
 	    }
 	  } else {
 	    $msg = "Ambos campos son requeridos";
+	    echo "Conexion cerrada";
+	    $connect = null;
+	    die();
 	  }
 	
  ?>

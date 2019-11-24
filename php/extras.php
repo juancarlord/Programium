@@ -41,7 +41,7 @@
 
 		echo "Datos actualizados correctamente";
 		$_SESSION['name']=$firstName;
-		header("Location:../logged.php");		
+		header("Location:../index.php");		
 
 
 	}catch(PDOException $e){

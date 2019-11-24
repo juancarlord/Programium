@@ -11,7 +11,7 @@
 		$username = $_POST['username'];
 		$password = $_POST['password'];
 
-		$sql = "INSERT INTO persona(EMAIL, USUARIO, CONTRASEÑA) VALUES (:email, :username, :password)";
+		$sql = "INSERT INTO persona(EMAIL, USUARIO, CONTRASEÑA, ADMINISTRADOR) VALUES (:email, :username, :password, 0)";
 		
 		$send = $connect->prepare($sql);
 		$send->bindParam(':email', $email);
@@ -26,7 +26,8 @@
 		$_SESSION['displayUser']=$username;
 		$_SESSION['userEmail']=$email;
 		
-		header("Location:../signUp.php");
+		
+		header("Location:../index.php");
 
 		
 		
