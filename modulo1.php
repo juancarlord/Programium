@@ -36,23 +36,24 @@
                 <div class="col-sm-6 col-md-5 col-lg-4 item">
                     <div class="box" style="height:312px;"><i class="fa fa-signal icon"></i>
                         <h3 class="name" style="margin-top:-27px;">Estructuras condicionales</h3>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a href="#" class="learn-more">Ingresa »</a>                
+                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a href="mod1-3.php" class="learn-more">Ingresa »</a>                
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-5 col-lg-4 item">
                     <div class="box"><i class="fa fa-leaf icon"></i>
                         <h3 class="name">Estructuras repetivas </h3>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a href="#" class="learn-more">Ingresa »</a></div>
+                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a href="mod1-4.php" class="learn-more">Ingresa »</a></div>
                 </div>
                 <div class="col-sm-6 col-md-5 col-lg-4 item">
                     <div class="box"><i class="fa fa-plane icon"></i>
                         <h3 class="name">Arreglos de tamano fijo </h3>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a href="#" class="learn-more">Ingresa »</a></div>
+                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a href="mod1-5.php" class="learn-more">Ingresa »</a></div>
                 </div>
                 
             </div>
         </div>
     </div>
+    <?php require_once 'includes/footer.php'; ?>
     <div></div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>

@@ -14,42 +14,35 @@
 	<div class="features-boxed">
         <div class="container carousel">
             <div class="intro" style="margin-top: 100px;">
-                <h2 class="text-center">Estructuras secuenciales</h2>
+                <h2 class="text-center">Arreglos de tamano fijo</h2>
                 <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae.</p>
             </div>
       		<div id="videoCarousel" class="carousel slide" data-ride="carousel">
 			  <ol class="carousel-indicators">
 			    <li data-target="#videoCarousel" data-slide-to="0" class="active"></li>
 			    <li data-target="#videoCarousel" data-slide-to="1"></li>
-			    <li data-target="#videoCarousel" data-slide-to="2"></li>
-			    <li data-target="#videoCarousel" data-slide-to="3"></li>			    
+			    <li data-target="#videoCarousel" data-slide-to="2"></li>			    			    
 			  </ol>
 			  <div class="carousel-inner">
 			    <div class="carousel-item active">
-			      <img class="d-block w-100" style="height: 25em;" src="img/variable.jpg" alt="First slide">
+			      <img class="d-block w-100" style="height: 25em;" src="img/array.png" alt="First slide">
 			      <div class="mask"></div>
 			      <div class="carousel-caption d-none d-md-block">
-			      	<h5>Declaracion de variables y constantes basicas</h5>
+			      	<h5>Arreglos unidimensionales</h5>
 			      </div>
 			    </div>
 			    <div class="carousel-item">
-			      <img class="d-block w-100" style="height: 25em;" src="img/io.jpg" alt="Second slide">
+			      <img class="d-block w-100" style="height: 25em;" src="img/biarray.png" alt="Second slide">
 			      <div class="carousel-caption d-none d-md-block">
-			      	<h5>Entrada y salida de datos</h5>
+			      	<h5>Arreglos bidimensionales</h5>
 			      </div>
 			    </div>
 			    <div class="carousel-item">
-			      <img class="d-block w-100" style="height: 25em;" src="img/arithmetic.png" alt="Third slide">
+			      <img class="d-block w-100" style="height: 25em;" src="img/3darray.jpg" alt="Third slide">
 			      <div class="carousel-caption d-none d-md-block">
-			      	<h5>Asignacion y operaciones aritmeticas</h5>
+			      	<h5>Arreglos de tres o mas dimensiones</h5>
 			      </div>
-			    </div>
-			    <div class="carousel-item">
-			      <img class="d-block w-100" style="height: 25em;" src="img/func.jpg" alt="Fourth slide">
-			      <div class="carousel-caption d-none d-md-block">
-			      	<h5>Funciones aritmeticas</h5>
-			      </div>
-			    </div>
+			    </div>			    
 			  </div>
 			  <a class="carousel-control-prev" href="#videoCarousel" role="button" data-slide="prev">
 			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
