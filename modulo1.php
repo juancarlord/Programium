@@ -24,28 +24,19 @@
                 <div class="col-sm-6 col-md-5 col-lg-4 item">
                     <div class="box"><i class="icon ion-android-desktop icon"></i>
                         <h3 class="name">Conceptos basicos de programacion</h3>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a href="mod1-1.php" class="learn-more">Ingresa »</a>
-                        <div class="progress">
-                            <div class="progress-bar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">10%</div>
-                        </div>
+                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a href="mod1-1.php" class="learn-more">Ingresa »</a>                
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-5 col-lg-4 item">
                     <div class="box" style="height:313px;"><i class="icon-mouse icon"></i>
                         <h3 class="name" style="margin-top:26px;">Estructuras secuenciales</h3>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a href="#" class="learn-more">Ingresa »</a>
-                        <div class="progress">
-                            <div class="progress-bar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">50%</div>
-                        </div>
+                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a href="mod1-2.php" class="learn-more">Ingresa »</a>                
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-5 col-lg-4 item">
                     <div class="box" style="height:312px;"><i class="fa fa-signal icon"></i>
                         <h3 class="name" style="margin-top:-27px;">Estructuras condicionales</h3>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a href="#" class="learn-more">Ingresa »</a>
-                        <div class="progress">
-                            <div class="progress-bar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">50%</div>
-                        </div>
+                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a href="#" class="learn-more">Ingresa »</a>                
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-5 col-lg-4 item">
