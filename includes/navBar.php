@@ -14,7 +14,7 @@
                         <li class="dropdown">
                             <a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">Cursos</a>
                             <div class="dropdown-menu" role="menu">
-                                <a class="dropdown-item" role="presentation" href="basico.php">Principiante
+                                <a class="dropdown-item" role="presentation" href="principiante.php">Principiante
                                 </a>
                                 <a class="dropdown-item" role="presentation" href="#">Intermedio</a>
                                 <a class="dropdown-item" role="presentation" href="#">Avanzado</a>
