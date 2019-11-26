@@ -16,8 +16,8 @@
                             <div class="dropdown-menu" role="menu">
                                 <a class="dropdown-item" role="presentation" href="principiante.php">Principiante
                                 </a>
-                                <a class="dropdown-item" role="presentation" href="#">Intermedio</a>
-                                <a class="dropdown-item" role="presentation" href="#">Avanzado</a>
+                                <a class="dropdown-item" role="presentation" href="intermedio.php">Intermedio</a>
+                                <a class="dropdown-item" role="presentation" href="avanzado.php">Avanzado</a>
                             </div>
                         </li>
                         <li class="nav-item" role="presentation">

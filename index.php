@@ -79,10 +79,10 @@
                             <a href="https://facebook.com/JuanCarlosGuitar">
                                 <i class="fa fa-facebook-official"></i>
                             </a>
-                            <a href="#">
+                            <a href="https://twitter.com/JuancarlordG">
                                 <i class="fa fa-twitter"></i>
                             </a>
-                            <a href="#">
+                            <a href="https://instagram.com/Juancarlord">
                                 <i class="fa fa-instagram"></i>
                             </a>
                         </div>
@@ -92,7 +92,7 @@
                     <div class="box">
                         <img class="rounded-circle" src="assets/img/2.jpg">
                         <h3 class="name">Angie Vargas</h3>
-                        <p class="title">Artist</p>
+                        <p class="title">Desarrollador</p>
                         <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
                         <div class="social">
                             <a href="#">
