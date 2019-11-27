@@ -10,13 +10,16 @@
     <?php require_once 'includes/navBar.php'; ?>
     <?php require_once 'includes/loginModal.php'; ?>
     <?php require_once 'includes/signUpModal.php'; ?>
+    <?php require_once 'includes/siteInfo.php'; ?>
     
     <div class="float-none" id="promo" style="margin-top:103px;">
         <div class="jumbotron" style="font-weight:normal;margin-top:50px;margin-bottom:50px;">
             <h1>Bienvenido a Programium</h1>
             <p>Aqui podras encontrar una variedad de animaciones y videotutoriales para facilitarte el aprendizaje de la programacion en computadores!</p>
             <p>
-                <a class="btn btn-primary" role="button" href="#" style="background-color:rgb(1,115,157);">Conoce mas!</a>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#siteInfo">
+                    Conoce mas!
+                </button>
             </p>
         </div>
     </div>
@@ -30,10 +33,9 @@
                     <div class="card">
                         <div class="card-body">
                             <h4 class="card-title">Principiante</h4>
-                            <h6 class="text-muted card-subtitle mb-2">HTML -- CSS</h6>
-                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
-                            <a class="card-link" href="#">Link</a>
-                            <a class="card-link" href="#">Link</a>
+                            <h6 class="text-muted card-subtitle mb-2">Fundamentos de la programacion</h6>
+                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>                            
+                            <a class="card-link" href="principiante.php">Ir al curso</a>
                         </div>
                     </div>
                 </div>
@@ -41,10 +43,9 @@
                     <div class="card">
                         <div class="card-body">
                             <h4 class="card-title">Intermedio</h4>
-                            <h6 class="text-muted card-subtitle mb-2">JavaScript -- Bootstrap</h6>
+                            <h6 class="text-muted card-subtitle mb-2">Programacion orientada a objetos</h6>
                             <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
-                            <a class="card-link" href="#">Link</a>
-                            <a class="card-link" href="#">Link</a>
+                            <a class="card-link" href="intermedio.php">Ir al curso</a>
                         </div>
                     </div>
                 </div>
@@ -52,10 +53,9 @@
                     <div class="card">
                         <div class="card-body">
                             <h4 class="card-title">Avanzado</h4>
-                            <h6 class="text-muted card-subtitle mb-2">PHP -- MYSQL</h6>
+                            <h6 class="text-muted card-subtitle mb-2">Desarrollo Fullstack</h6>
                             <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
-                            <a class="card-link" href="#">Link</a>
-                            <a class="card-link" href="#">Link</a>
+                            <a class="card-link" href="avanzado.php">Ir al curso</a>
                         </div>
                     </div>
                 </div>

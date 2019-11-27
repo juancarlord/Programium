@@ -23,6 +23,7 @@
 	        $_SESSION['sess_user_id']   = $row['USUARIO'];
 	        $_SESSION['userEmail'] = $row['EMAIL'];
 	        $_SESSION['name'] = $row['NOMBRE'];
+	        $_SESSION['admin'] = $row['ADMINISTRADOR'];
 	       
 			/*header("Location:../logged.php");		*/
 			header("Location:../index.php");

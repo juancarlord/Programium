@@ -53,8 +53,27 @@
             </div>
             <div class="form-row">
                 <div class="form-group col-md-6">
+                    <label for="city">Pais:</label>
+                    <select name="country" id="country" class="form-control">
+                        <option value="1">COLOMBIA</option>
+                        <option value="2">ARGENTINA</option>
+                        <option value="3">CHILE</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="job">Estado:</label>
+                    <select name="state" id="state" class="form-control">
+                        <option value="1">BOYACA</option>
+                        <option value="2">SANTANDER</option>
+                        <option value="3">CASANARE</option>
+                        
+                    </select>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
                     <label for="city">Ciudad:</label>
-                    <select name="city" id="" class="form-control">
+                    <select name="city" id="city" class="form-control">
                         <option value="1">Tunja</option>
                     </select>
                 </div>
@@ -83,6 +102,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/bs-animation.js"></script>
+    <script src="assets/js/comboupdater.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
 </body>
 

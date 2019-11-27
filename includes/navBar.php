@@ -20,9 +20,7 @@
                                 <a class="dropdown-item" role="presentation" href="avanzado.php">Avanzado</a>
                             </div>
                         </li>
-                        <li class="nav-item" role="presentation">
-                            <a class="nav-link" href="#">Foros</a>
-                        </li>
+                        
                     </ul>
                     <?php 
                         session_start();
