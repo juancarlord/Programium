@@ -3,7 +3,7 @@
 
 <head>
     
-    <title>Curso Principiante</title>
+    <title>Curso Avanzado</title>
     <?php require_once  'includes/bootstrapHead.php'; ?>
 </head>
 
