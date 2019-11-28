@@ -24,8 +24,6 @@
                                         <?php 
                                         if ($_SESSION['admin'] == 1) {
                                              echo '<a href="consultas.php" class="dropdown-item">Consultas</a>';
-                                         }elseif ($_SESSION['admin'] == 0) {
-                                             $_SESSION['admin']=0;
                                          } ?>
                                         <a href="signUp.php" class="dropdown-item">Actualizar datos</a>
 	                        			<a href="php/logout.php" class="dropdown-item">Cerrar sesion</a>

@@ -7,6 +7,7 @@
 	<?php 
 	try{
 		/*Insertar registro en la tabla*/
+		$_SESSION['admin']=0;
 		$email = $_POST['email'];
 		$username = $_POST['username'];
 		$password = $_POST['password'];

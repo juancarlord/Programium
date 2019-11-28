@@ -9,7 +9,7 @@
 	<?php require_once 'includes/loginModal.php'; ?>
     <?php require_once 'includes/signUpModal.php'; ?>
 
-	 ?>
+	<?php require_once 'includes/modulo1/videomodals14.php'; ?>
 
 	<div class="features-boxed">
         <div class="container carousel">
@@ -25,23 +25,29 @@
 			  </ol>
 			  <div class="carousel-inner">
 			    <div class="carousel-item active">
+			    	<a href="#for" data-toggle="modal">
 			      <img class="d-block w-100" style="height: 25em;" src="img/for.jpg" alt="First slide">
 			      <div class="mask"></div>
-			      <div class="carousel-caption d-none d-md-block">
+			      <div class="carousel-caption">
 			      	<h5>Ciclo for</h5>
 			      </div>
+			      </a>
 			    </div>
 			    <div class="carousel-item">
+			    	<a href="#while" data-toggle="modal">
 			      <img class="d-block w-100" style="height: 25em;" src="img/while.jpg" alt="Second slide">
-			      <div class="carousel-caption d-none d-md-block">
+			      <div class="carousel-caption">
 			      	<h5>Ciclo while</h5>
 			      </div>
+			      </a>
 			    </div>
 			    <div class="carousel-item">
+			    	<a href="#dowhile" data-toggle="modal">
 			      <img class="d-block w-100" style="height: 25em;" src="img/dowhile.png" alt="Third slide">
-			      <div class="carousel-caption d-none d-md-block">
+			      <div class="carousel-caption">
 			      	<h5>Ciclo do-while</h5>
 			      </div>
+			      </a>
 			    </div>			    
 			  </div>
 			  <a class="carousel-control-prev" href="#videoCarousel" role="button" data-slide="prev">

@@ -3,7 +3,7 @@
         <div class="modal-content">
             <div class="modal-body">
                 <div class="login-clean">
-                    <form method="POST" action="php/createUser.php" data-aos="fade-up" style="background-color:rgb(248,248,248);">
+                    <form method="POST" action="php/createUser.php" data-aos="fade-up">
                         <h2 class="sr-only">Signup Form</h2>
                         <div class="illustration">
                             <img src="assets/img/logoNoNombre.png" style="width:140px;">

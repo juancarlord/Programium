@@ -9,7 +9,7 @@
 	<?php require_once 'includes/loginModal.php'; ?>
     <?php require_once 'includes/signUpModal.php'; ?>
 
-	 ?>
+	<?php require_once 'includes/modulo2/videomodals23.php'; ?>
 
 	<div class="features-boxed">
         <div class="container carousel">
@@ -24,17 +24,21 @@
 			  </ol>
 			  <div class="carousel-inner">
 			    <div class="carousel-item active">
+			    	<a href="#clases" data-toggle="modal">
 			      <img class="d-block w-100" style="height: 25em;" src="img/javaclass.png" alt="First slide">
 			      <div class="mask"></div>
-			      <div class="carousel-caption d-none d-md-block">
+			      <div class="carousel-caption">
 			      	<h5>Clases y objetos</h5>
 			      </div>
+			      </a>
 			    </div>
 			    <div class="carousel-item">
+			    	<a href="#metodos" data-toggle="modal">
 			      <img class="d-block w-100" style="height: 25em;" src="img/javamethods.png" alt="Second slide">
-			      <div class="carousel-caption d-none d-md-block">
+			      <div class="carousel-caption">
 			      	<h5>Metodos</h5>
 			      </div>
+			      </a>
 			    </div>
 			  </div>
 			  <a class="carousel-control-prev" href="#videoCarousel" role="button" data-slide="prev">

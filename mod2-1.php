@@ -9,7 +9,7 @@
 	<?php require_once 'includes/loginModal.php'; ?>
     <?php require_once 'includes/signUpModal.php'; ?>
 
-	 ?>
+	<?php require_once 'includes/modulo2/videomodals21.php'; ?>
 
 	<div class="features-boxed">
         <div class="container carousel">
@@ -25,23 +25,29 @@
 			  </ol>
 			  <div class="carousel-inner">
 			    <div class="carousel-item active">
+			    	<a href="#origen" data-toggle="modal">
 			      <img class="d-block w-100" style="height: 25em;" src="img/java.jpg" alt="First slide">
 			      <div class="mask"></div>
-			      <div class="carousel-caption d-none d-md-block">
+			      <div class="carousel-caption">
 			      	<h5>Origen</h5>
 			      </div>
+			      </a>
 			    </div>
 			    <div class="carousel-item">
+			    	<a href="#caracteristicas" data-toggle="modal">
 			      <img class="d-block w-100" style="height: 25em;" src="img/carcateristicas.jpg" alt="Second slide">
-			      <div class="carousel-caption d-none d-md-block">
+			      <div class="carousel-caption">
 			      	<h5>Caracteristicas del lenguaje</h5>
 			      </div>
+			      </a>
 			    </div>
 			    <div class="carousel-item">
+			    	<a href="#wora" data-toggle="modal">
 			      <img class="d-block w-100" style="height: 25em;" src="img/wora.png" alt="Third slide">
-			      <div class="carousel-caption d-none d-md-block">
+			      <div class="carousel-caption">
 			      	<h5>Como escribir y ejecutar aplicaciones en Java</h5>
 			      </div>
+			      </a>
 			    </div>
 			    
 			  </div>

@@ -9,7 +9,7 @@
 	<?php require_once 'includes/loginModal.php'; ?>
     <?php require_once 'includes/signUpModal.php'; ?>
 
-	 ?>
+	<?php require_once 'includes/modulo1/videomodals13.php'; ?>
 
 	<div class="features-boxed">
         <div class="container carousel">
@@ -25,23 +25,29 @@
 			  </ol>
 			  <div class="carousel-inner">
 			    <div class="carousel-item active">
+			    	<a href="#conditionals" data-toggle="modal">
 			      <img class="d-block w-100" style="height: 25em;" src="img/condi.png" alt="First slide">
 			      <div class="mask"></div>
-			      <div class="carousel-caption d-none d-md-block">
+			      <div class="carousel-caption">
 			      	<h5>Condiciones, operadores logicos y relacionales, y tablas de verdad</h5>
 			      </div>
+			      </a>
 			    </div>
 			    <div class="carousel-item">
+			    	<a href="#if" data-toggle="modal">
 			      <img class="d-block w-100" style="height: 25em;" src="img/if.png" alt="Second slide">
-			      <div class="carousel-caption d-none d-md-block">
+			      <div class="carousel-caption">
 			      	<h5>Estructura if y variaciones</h5>
 			      </div>
+			      </a>
 			    </div>
 			    <div class="carousel-item">
+			    	<a href="#switch" data-toggle="modal">
 			      <img class="d-block w-100" style="height: 25em;" src="img/switch.png" alt="Third slide">
-			      <div class="carousel-caption d-none d-md-block">
+			      <div class="carousel-caption">
 			      	<h5>Estructuras switch</h5>
 			      </div>
+			      </a>
 			    </div>			    
 			  </div>
 			  <a class="carousel-control-prev" href="#videoCarousel" role="button" data-slide="prev">

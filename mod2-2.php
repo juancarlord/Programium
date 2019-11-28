@@ -9,7 +9,7 @@
 	<?php require_once 'includes/loginModal.php'; ?>
     <?php require_once 'includes/signUpModal.php'; ?>
 
-	 ?>
+	<?php require_once 'incldes/modulo2/videomodals22.php' ?>
 
 	<div class="features-boxed">
         <div class="container carousel">
@@ -23,46 +23,49 @@
 			    <li data-target="#videoCarousel" data-slide-to="1"></li>
 			    <li data-target="#videoCarousel" data-slide-to="2"></li>			   
 			    <li data-target="#videoCarousel" data-slide-to="3"></li>			   
-			    <li data-target="#videoCarousel" data-slide-to="4"></li>			   
-			    <li data-target="#videoCarousel" data-slide-to="5"></li>			   			    
+			    <li data-target="#videoCarousel" data-slide-to="4"></li>			   			   			   			    
 			  </ol>
 			  <div class="carousel-inner">
 			    <div class="carousel-item active">
+			    	<a href="#tipoDeDato" data-toggle="modal">
 			      <img class="d-block w-100" style="height: 25em;" src="img/javadata.png" alt="First slide">
 			      <div class="mask"></div>
-			      <div class="carousel-caption d-none d-md-block">
+			      <div class="carousel-caption">
 			      	<h5>Tipos de datos</h5>
 			      </div>
+			      </a>
 			    </div>
 			    <div class="carousel-item">
+			    	<a href="#variables" data-toggle="modal">
 			      <img class="d-block w-100" style="height: 25em;" src="img/javavar.png" alt="Second slide">
-			      <div class="carousel-caption d-none d-md-block">
-			      	<h5>Variables</h5>
+			      <div class="carousel-caption">
+			      	<h5>Variables y constantes</h5>
 			      </div>
-			    </div>
-			    <div class="carousel-item">
-			      <img class="d-block w-100" style="height: 25em;" src="img/javacons.jpg" alt="Third slide">
-			      <div class="carousel-caption d-none d-md-block">
-			      	<h5>Constantes</h5>
-			      </div>
+			      </a>
 			    </div>
 				<div class="carousel-item">
+					<a href="#secuenciacion" data-toggle="modal">
 			      <img class="d-block w-100" style="height: 25em;" src="img/javasec.jpg" alt="Fourth slide">
-			      <div class="carousel-caption d-none d-md-block">
+			      <div class="carousel-caption">
 			      	<h5>Estructuras de secuenciacion</h5>
 			      </div>
+			      </a>
 			    </div>
 			    <div class="carousel-item">
+			    	<a href="#repetitivas" data-toggle="modal">
 			      <img class="d-block w-100" style="height: 25em;" src="img/javarep.jpg" alt="Fifth slide">
-			      <div class="carousel-caption d-none d-md-block">
+			      <div class="carousel-caption">
 			      	<h5>Estructuras repetitivas</h5>
 			      </div>
+			      </a>
 			    </div>
 			    <div class="carousel-item">
+			    	<a href="#condicionales" data-toggle="modal">
 			      <img class="d-block w-100" style="height: 25em;" src="img/javacond.jpg" alt="Sixth slide">
-			      <div class="carousel-caption d-none d-md-block">
+			      <div class="carousel-caption">
 			      	<h5>Estructuras condicionales</h5>
 			      </div>
+			      </a>
 			    </div>			    
 			  </div>
 			  <a class="carousel-control-prev" href="#videoCarousel" role="button" data-slide="prev">
