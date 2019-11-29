@@ -14,8 +14,8 @@
 	<div class="features-boxed">
         <div class="container carousel">
             <div class="intro" style="margin-top: 100px;">
-                <h2 class="text-center">Clases, objetos y metodos</h2>
-                <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae.</p>
+                <h2 class="text-center">Clases, objetos y métodos</h2>
+                <p class="text-center">Explica que clases, objetos y métodos existen en java y como usarlos.</p>
             </div>
       		<div id="videoCarousel" class="carousel slide" data-ride="carousel">
 			  <ol class="carousel-indicators">
@@ -36,18 +36,18 @@
 			    	<a href="#metodos" data-toggle="modal">
 			      <img class="d-block w-100" style="height: 25em;" src="img/javamethods.png" alt="Second slide">
 			      <div class="carousel-caption">
-			      	<h5>Metodos</h5>
+			      	<h5>Métodos</h5>
 			      </div>
 			      </a>
 			    </div>
 			  </div>
 			  <a class="carousel-control-prev" href="#videoCarousel" role="button" data-slide="prev">
 			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			    <span class="sr-only">Previous</span>
+			    <span class="sr-only">Anterior</span>
 			  </a>
 			  <a class="carousel-control-next" href="#videoCarousel" role="button" data-slide="next">
 			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-			    <span class="sr-only">Next</span>
+			    <span class="sr-only">Siguiente</span>
 			  </a>
 
 			  </div>

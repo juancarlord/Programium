@@ -15,9 +15,9 @@
                                 <input class="form-control" type="password" name="password" placeholder="Clave">
                             </div>
                             <div class="form-group">
-                                <button class="btn btn-primary active btn-block" type="submit">Iniciar sesion</button>
+                                <button class="btn btn-primary active btn-block" type="submit">Iniciar sesión</button>
                             </div>
-                            <a href="#" class="forgot">Olvide mi contraseña</a>
+                            <a href="#" class="forgot">Olvidé mi contraseña</a>
                         </form>
                     </div>
                 </div>

@@ -15,10 +15,10 @@
     <div class="float-none" id="promo" style="margin-top:103px;">
         <div class="jumbotron" style="font-weight:normal;margin-top:50px;margin-bottom:50px;">
             <h1>Bienvenido a Programium</h1>
-            <p>Aqui podras encontrar una variedad de animaciones y videotutoriales para facilitarte el aprendizaje de la programacion en computadores!</p>
+            <p>Aquí podrás encontrar una variedad de animaciones y videotutoriales para facilitarte el aprendizaje de la programación en computadores!</p>
             <p>
                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#siteInfo">
-                    Conoce mas!
+                    Conoce más!
                 </button>
             </p>
         </div>
@@ -33,8 +33,8 @@
                     <div class="card">
                         <div class="card-body">
                             <h4 class="card-title">Principiante</h4>
-                            <h6 class="text-muted card-subtitle mb-2">Fundamentos de la programacion</h6>
-                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>                            
+                            <h6 class="text-muted card-subtitle mb-2">Fundamentos de la programación</h6>
+                            <p class="card-text">Para realizar este curso no necesitas tener conocimientos en programación ya que en este curso explica desde lo más básico.</p>                            
                             <a class="card-link" href="principiante.php">Ir al curso</a>
                         </div>
                     </div>
@@ -43,8 +43,8 @@
                     <div class="card">
                         <div class="card-body">
                             <h4 class="card-title">Intermedio</h4>
-                            <h6 class="text-muted card-subtitle mb-2">Programacion orientada a objetos</h6>
-                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                            <h6 class="text-muted card-subtitle mb-2">Programación orientada a objetos</h6>
+                            <p class="card-text">En este curso encontrarás algunos temas referentes a la programación orientada a objetos.</p>
                             <a class="card-link" href="intermedio.php">Ir al curso</a>
                         </div>
                     </div>
@@ -54,7 +54,7 @@
                         <div class="card-body">
                             <h4 class="card-title">Avanzado</h4>
                             <h6 class="text-muted card-subtitle mb-2">Desarrollo Fullstack</h6>
-                            <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                            <p class="card-text">Este curso tiene contenido a todo lo relacionado con programación para páginas web.</p>
                             <a class="card-link" href="avanzado.php">Ir al curso</a>
                         </div>
                     </div>
@@ -66,15 +66,15 @@
         <div class="container">
             <div class="intro">
                 <h2 class="text-center">Nuestro Equipo</h2>
-                <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae.</p>
+                <p class="text-center">Está compuesto por personas expertas en programación y diseño.</p>
             </div>
             <div class="row people">
                 <div class="col-md-6 col-lg-6 col-xl-6 offset-xl-0 item">
                     <div class="box">
                         <img class="rounded-circle" src="assets/img/IMG_0640.jpg" id="profilePic">
-                        <h3 class="name">Juan Carlos Gomez</h3>
+                        <h3 class="name">Juan Carlos Gómez</h3>
                         <p class="title">Desarrollador</p>
-                        <p class="description">Estudiante de ingenieria de sistemas de la Universidad de Boyacá, con experiencia en diseño y produccion de medios. colaboro con la aplicacion de Bootstrap al diseño del sitio web. </p>
+                        <p class="description">Estudiante de ingeniería de sistemas de la Universidad de Boyacá, con experiencia en diseño y produccion de medios. Colaboro con la aplicación de Bootstrap al diseño del sitio web. </p>
                         <div class="social">
                             <a href="https://facebook.com/JuanCarlosGuitar">
                                 <i class="fa fa-facebook-official"></i>
@@ -90,18 +90,18 @@
                 </div>
                 <div class="col-md-6 col-lg-6 col-xl-6 offset-xl-0 item">
                     <div class="box">
-                        <img class="rounded-circle" src="assets/img/2.jpg">
+                        <img class="rounded-circle" src="assets/img/pp.jpg">
                         <h3 class="name">Angie Vargas</h3>
-                        <p class="title">Desarrollador</p>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+                        <p class="title">Desarrolladora</p>
+                        <p class="description">Estudiante de ingeniería de sistemas de la Universidad de Boyacá. Colaboro con el diseño y desarrollo de la base de datos para el sitio web. </p>
                         <div class="social">
-                            <a href="#">
+                            <a href="https://www.facebook.com/angie.vargas.3158">
                                 <i class="fa fa-facebook-official"></i>
                             </a>
-                            <a href="#">
+                            <a href="https://twitter.com/angievarguitas">
                                 <i class="fa fa-twitter"></i>
                             </a>
-                            <a href="#">
+                            <a href="https://www.instagram.com/angie_vargas_02/">
                                 <i class="fa fa-instagram"></i>
                             </a>
                         </div>

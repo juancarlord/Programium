@@ -17,7 +17,7 @@
                         <div class="form-group">
                             <input class="form-control" type="password" name="password" placeholder="Contraseña" aria-describedby="passwordHelp">
                             <small id="passwordHelp" class="form-text text-muted">
-                                Su contraseña debe tener minimo 5 caracteres y solo puede contener caracteres especiales tales como "/*-+!@#$%& "
+                                Su contraseña debe tener mínimo 5 carácteres y solo puede contener carácteres especiales tales como "/*-+!@#$%& "
                             </small>
                         </div>
                         <div class="form-group">

@@ -15,7 +15,7 @@
         <div class="container carousel">
             <div class="intro" style="margin-top: 100px;">
                 <h2 class="text-center">Estructuras repetitivas</h2>
-                <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae.</p>
+                <p class="text-center">Explica cuales son las estructuras repetitivas y como funcionan.</p>
             </div>
       		<div id="videoCarousel" class="carousel slide" data-ride="carousel">
 			  <ol class="carousel-indicators">
@@ -52,11 +52,11 @@
 			  </div>
 			  <a class="carousel-control-prev" href="#videoCarousel" role="button" data-slide="prev">
 			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			    <span class="sr-only">Previous</span>
+			    <span class="sr-only">Anterior</span>
 			  </a>
 			  <a class="carousel-control-next" href="#videoCarousel" role="button" data-slide="next">
 			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-			    <span class="sr-only">Next</span>
+			    <span class="sr-only">Siguiente</span>
 			  </a>
 
 			  </div>

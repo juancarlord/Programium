@@ -42,7 +42,7 @@
                 <div class="form-group col-md-6">
                     <label for="professor">Es profesor?</label>
                     <select name="professor" id="" class="form-control">
-                        <option value="1">Si</option>
+                        <option value="1">Sí</option>
                         <option value="0">No</option>
                     </select>
                 </div>
@@ -53,7 +53,7 @@
             </div>
             <div class="form-row">
                 <div class="form-group col-md-6">
-                    <label for="city">Pais:</label>
+                    <label for="city">País:</label>
                     <select name="country" id="country" class="form-control">
                         <option value="1">COLOMBIA</option>                        
                     </select>
@@ -61,7 +61,7 @@
                 <div class="form-group col-md-6">
                     <label for="job">Estado:</label>
                     <select name="state" id="state" class="form-control">
-                        <option value="1">BOYACA</option>
+                        <option value="1">BOYACÁ</option>
                         <option value="2">SANTANDER</option>
                         <option value="3">CASANARE</option>                        
                     </select>
@@ -77,7 +77,7 @@
                     </select>
                 </div>
                 <div class="form-group col-md-6">
-                    <label for="job">Ocupacion</label>
+                    <label for="job">Ocupación</label>
                     <select name="job" id="" class="form-control">
                         <option value="1">Estudiante</option>
                         <option value="2">Empleado</option>
@@ -88,7 +88,7 @@
             </div>
             <div class="form-row">
                 <div class="form-control">
-                    <label for="interest">Razon por la cual te inscribes:</label>
+                    <label for="interest">Razón por la cual te inscribes:</label>
                     <textarea name="interest" id="" cols="30" rows="10" class="form-control" placeholder="Sea breve"></textarea>
                 </div>
             </div>

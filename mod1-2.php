@@ -15,7 +15,7 @@
         <div class="container carousel">
             <div class="intro" style="margin-top: 100px;">
                 <h2 class="text-center">Estructuras secuenciales</h2>
-                <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae.</p>
+                <p class="text-center">Explica cuales son las estructuras secuenciales y como funcionan.</p>
             </div>
       		<div id="videoCarousel" class="carousel slide" data-ride="carousel">
 			  <ol class="carousel-indicators">
@@ -30,7 +30,7 @@
 			      <img class="d-block w-100" style="height: 25em;" src="img/variable.jpg" alt="First slide">
 			      <div class="mask"></div>
 			      <div class="carousel-caption">
-			      	<h5>Declaracion de variables y constantes basicas</h5>
+			      	<h5>Declaración de variables y constantes básicas</h5>
 			      </div>
 			      </a>
 			    </div>
@@ -46,7 +46,7 @@
 			    	<a href="#asignacion" data-toggle="modal">
 			      <img class="d-block w-100" style="height: 25em;" src="img/arithmetic.png" alt="Third slide">
 			      <div class="carousel-caption">
-			      	<h5>Asignacion y operaciones aritmeticas</h5>
+			      	<h5>Asignación y operaciones aritméticas</h5>
 			      </div>
 			      </a>
 			    </div>
@@ -54,18 +54,18 @@
 			    	<a href="#funarit" data-toggle="modal">
 			      <img class="d-block w-100" style="height: 25em;" src="img/func.jpg" alt="Fourth slide">
 			      <div class="carousel-caption">
-			      	<h5>Funciones aritmeticas</h5>
+			      	<h5>Funciones aritméticas</h5>
 			      </div>
 			    </div>
 			    </a>
 			  </div>
 			  <a class="carousel-control-prev" href="#videoCarousel" role="button" data-slide="prev">
 			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			    <span class="sr-only">Previous</span>
+			    <span class="sr-only">Anterior</span>
 			  </a>
 			  <a class="carousel-control-next" href="#videoCarousel" role="button" data-slide="next">
 			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-			    <span class="sr-only">Next</span>
+			    <span class="sr-only">Siguiente</span>
 			  </a>
 
 			  </div>

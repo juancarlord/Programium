@@ -26,7 +26,7 @@
                                              echo '<a href="consultas.php" class="dropdown-item">Consultas</a>';
                                          } ?>
                                         <a href="signUp.php" class="dropdown-item">Actualizar datos</a>
-	                        			<a href="php/logout.php" class="dropdown-item">Cerrar sesion</a>
+	                        			<a href="php/logout.php" class="dropdown-item">Cerrar sesión</a>
 	                        		</div>
 	                        	</li>
                         	</ul>
