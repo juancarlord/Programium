@@ -9,6 +9,8 @@
 	<?php require_once 'includes/loginModal.php' ?>
 	<?php require_once 'includes/signUpModal.php' ?>
 	
+	<?php require_once 'includes/modulo4/videomodals42.php'; ?>
+
 	<div class="features-boxed">
         <div class="container carousel">
             <div class="intro" style="margin-top: 100px;">
@@ -22,17 +24,21 @@
 			  </ol>
 			  <div class="carousel-inner">
 			    <div class="carousel-item active">
+			    	<a href="#php" data-toggle="modal">
 			      <img class="d-block w-100" style="height: 25em;" src="img/php.jpg" alt="First slide">
 			      <div class="mask"></div>
 			      <div class="carousel-caption d-none d-md-block">
 			      	<h5>PHP</h5>
 			      </div>
+			      </a>
 			    </div>
 			    <div class="carousel-item">
+			    	<a href="#mysql" data-toggle="modal">
 			      <img class="d-block w-100" style="height: 25em;" src="img/mysql.jpg" alt="Second slide">
 			      <div class="carousel-caption d-none d-md-block">
 			      	<h5>MySQL</h5>
 			      </div>
+			      </a>
 			    </div>
 			  </div>
 			  <a class="carousel-control-prev" href="#videoCarousel" role="button" data-slide="prev">

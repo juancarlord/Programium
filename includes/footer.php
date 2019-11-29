@@ -16,14 +16,7 @@
             </div>
             <ul class="list-inline">
                 <li class="list-inline-item">
-                    <a href="#">Inicio</a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="#">Acerca de</a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="#">Politica de privacidad</a>
-                </li>
+                    <a href="index.php">Inicio</a>                
             </ul>
             <p class="copyright">Programium © 2019</p>
         </footer>

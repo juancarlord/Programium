@@ -1,14 +1,7 @@
-$(document).ready(function() {
-  
-  $("#country").change(function() {
+var $state = $( '#state' ),
+		$city = $( '#city' ),
+    $options = $city.find( 'option' );
     
-    var el = $(this) ;
-    
-    if(el.val() === "ARGENTINA" ) {
-    $("#state").append("   <option>SHIPPED</option>");
-    }
-      else if(el.val() === "COLOMBIA" ) {
-        $("#state option:last-child").remove() ; }
-  });
-  
-});
+$state.on( 'change', function() {
+	$city.html( $options.filter( '[value="' + this.value + '"]' ) );
+} ).trigger( 'change' );

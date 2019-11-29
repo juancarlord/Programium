@@ -74,7 +74,7 @@
                         <img class="rounded-circle" src="assets/img/IMG_0640.jpg" id="profilePic">
                         <h3 class="name">Juan Carlos Gomez</h3>
                         <p class="title">Desarrollador</p>
-                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+                        <p class="description">Estudiante de ingenieria de sistemas de la Universidad de Boyacá, con experiencia en diseño y produccion de medios. colaboro con la aplicacion de Bootstrap al diseño del sitio web. </p>
                         <div class="social">
                             <a href="https://facebook.com/JuanCarlosGuitar">
                                 <i class="fa fa-facebook-official"></i>

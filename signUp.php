@@ -55,9 +55,7 @@
                 <div class="form-group col-md-6">
                     <label for="city">Pais:</label>
                     <select name="country" id="country" class="form-control">
-                        <option value="1">COLOMBIA</option>
-                        <option value="2">ARGENTINA</option>
-                        <option value="3">CHILE</option>
+                        <option value="1">COLOMBIA</option>                        
                     </select>
                 </div>
                 <div class="form-group col-md-6">
@@ -65,8 +63,7 @@
                     <select name="state" id="state" class="form-control">
                         <option value="1">BOYACA</option>
                         <option value="2">SANTANDER</option>
-                        <option value="3">CASANARE</option>
-                        
+                        <option value="3">CASANARE</option>                        
                     </select>
                 </div>
             </div>
@@ -75,6 +72,8 @@
                     <label for="city">Ciudad:</label>
                     <select name="city" id="city" class="form-control">
                         <option value="1">Tunja</option>
+                        <option value="2">Bucaramanga</option>
+                        <option value="3">Yopal</option>                        
                     </select>
                 </div>
                 <div class="form-group col-md-6">

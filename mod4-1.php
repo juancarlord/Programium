@@ -8,6 +8,8 @@
 	<?php require_once 'includes/navBar.php'; ?>
 	<?php require_once 'includes/loginModal.php' ?>
 	<?php require_once 'includes/signUpModal.php' ?>
+
+	<?php require_once 'includes/modulo4/videomodals41.php'; ?>
 	
 	<div class="features-boxed">
         <div class="container carousel">
@@ -24,29 +26,37 @@
 			  </ol>
 			  <div class="carousel-inner">
 			    <div class="carousel-item active">
+			    	<a href="#html5" data-toggle="modal">
 			      <img class="d-block w-100" style="height: 25em;" src="img/html5.jpg" alt="First slide">
 			      <div class="mask"></div>
 			      <div class="carousel-caption d-none d-md-block">
 			      	<h5>HTML5</h5>
 			      </div>
+			      </a>
 			    </div>
 			    <div class="carousel-item">
+			    	<a href="#css" data-toggle="modal">
 			      <img class="d-block w-100" style="height: 25em;" src="img/css.jpg" alt="Second slide">
 			      <div class="carousel-caption d-none d-md-block">
 			      	<h5>CSS</h5>
 			      </div>
+			      </a>
 			    </div>
 			    <div class="carousel-item">
+			    	<a href="#javascript" data-toggle="modal">
 			      <img class="d-block w-100" style="height: 25em;" src="img/js.png" alt="Third slide">
 			      <div class="carousel-caption d-none d-md-block">
 			      	<h5>JavaScript</h5>
 			      </div>
+			      </a>
 			    </div>
 			    <div class="carousel-item">
+			    	<a href="#bootstrap" data-toggle="modal">
 			      <img class="d-block w-100" style="height: 25em;" src="img/bootstrap.png" alt="Third slide">
 			      <div class="carousel-caption d-none d-md-block">
 			      	<h5>Bootstrap</h5>
 			      </div>
+			      </a>
 			    </div>			    		    			    			   
 			  </div>
 			  <a class="carousel-control-prev" href="#videoCarousel" role="button" data-slide="prev">
